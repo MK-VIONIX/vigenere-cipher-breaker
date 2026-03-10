@@ -85,7 +85,7 @@ int main(){
     double count = 0, normalized_value = INT_MAX;
     int key_size = 2, keys;
 
-    while(key_size < 41){
+    while(key_size < 65){
 
         for(int i = 0; i + 2 * key_size <= text.size(); i += key_size){
 
@@ -130,3 +130,4 @@ int main(){
 
     cout << plaintext;
 }
+
